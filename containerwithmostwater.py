@@ -1,6 +1,6 @@
 # https://leetcode.com/problems/container-with-most-water/
 # start two pointers from the left and right , as to maximum the length
-# the conidtion to move the pointer is to move the smaller one.
+# the conidtion to move the pointer is to compare and move the smaller one.
 class Solution:
     def maxArea(self, height: List[int]) -> int:
         l = 0
