@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/3sum/
 # sort the array to get rid of the dupulicate
+# log(n)
 
 def threeSum(nums):
     nums.sort()
