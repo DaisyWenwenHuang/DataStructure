@@ -1,5 +1,6 @@
 # https://leetcode.com/problems/move-zeroes/
 # array
+# move zeros to the rigth , equals move non-zeros to the left
 class Solution:
     def moveZeroes(self, nums: List[int]) -> None:
         """
