@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/rotate-array/
 # array
 # solution 1
-# 
+# extra memory O(1), time O(k)
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
