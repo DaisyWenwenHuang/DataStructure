@@ -21,6 +21,8 @@ class Solution:
 # solution 2
 # reverse 3 times
 # faster , no extra memory 
+# solution 1 is slower because inserting in array is not that fast
+# bacause array need to be shift after inserting/deleting
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
