@@ -23,6 +23,7 @@ class Solution:
 # faster , no extra memory 
 # solution 1 is slower because inserting in array is not that fast
 # bacause array need to be shift after inserting/deleting
+# as all the elements in an array are stored neighbouring each other in the memory 
 class Solution:
     def rotate(self, nums: List[int], k: int) -> None:
         """
