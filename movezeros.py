@@ -12,4 +12,5 @@ class Solution:
                 nums[l], nums[r] = nums[r],nums[l]
                 l += 1
         # return nums
-#
+# if not alter in place, can create two separate arrays
+# combine later
