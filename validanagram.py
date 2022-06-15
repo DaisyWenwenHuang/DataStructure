@@ -6,11 +6,14 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
             return False
-        hashtable = {}
-        for char in s:
-            if char in hashtable:
-                hashtable[char] += 1
-            else:
-                hashtable.get(char,0)
-        for ele in t:
+        hashtableS = {}
+        hashtableT = {}
+        for i in range(len(t)):
+            hashtableS[s[i]] = 1 + hashtableS.get(s[i], 0)
+            hashtableT[t[i]] = 1 + hashtableT.get(t[i], 0)
+        for char in hashtableT:
+            if hashtableT[char] != hashtableS.get(char, 0):
+                return False
+        return True
+        
             
